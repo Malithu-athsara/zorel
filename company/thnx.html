@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You - Zorel Perfume</title>
+    <meta http-equiv="refresh" content="4; url=zorel.html">
+    <style>
+        body {
+            background: #f6f6f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            animation: bodyFadeIn 1.1s ease forwards;
+        }
+
+        @keyframes bodyFadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            background: #6c3483;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+            opacity: 0;
+            animation: fadeIn 1s 1.5s forwards;
+        }
+
+        .thankyou-container {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 16px rgba(44, 41, 61, 0.10);
+            padding: 50px 40px;
+            text-align: center;
+            max-width: 420px;
+            animation: fadeInUp 1.1s 0.2s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .thankyou-logo {
+            width: 80px;
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            color: #6c3483;
+            margin-bottom: 0.3em;
+            font-size: 2em;
+        }
+
+        p {
+            color: #4a235a;
+            font-size: 1.15em;
+            margin-bottom: 2em;
+        }
+
+        .redirect-msg {
+            color: #888;
+            font-size: 1em;
+            margin-top: 1.5em;
+        }
+    </style>
+    <script>
+        // For browsers that don't support meta refresh
+        setTimeout(function () {
+            window.location.href = "zorel.html";
+        }, 4000);
+    </script>
+</head>
+
+<body>
+    <div class="thankyou-container">
+        <!-- Optional: Add your logo here -->
+        <!-- <img src="logo.png" alt="Zorel Logo" class="thankyou-logo"> -->
+        <h1>Thank You!</h1>
+        <p>Your purchase was successful.<br>
+            We appreciate your trust in Zorel Perfume.<br>
+            A confirmation email has been sent to you.</p>
+        <div class="redirect-msg">
+            You will be redirected to the homepage shortly...
+        </div>
+        <br>
+        <footer>
+            Zorel Perfume <img src="logo.png" height="20"> | 123 Aroma Lane, Fragrance City | Email: contact@zoral.com |
+            &copy; 2025 Zoral Perfume
+            Company. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+
+</html>
